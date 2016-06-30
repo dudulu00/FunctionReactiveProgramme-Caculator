@@ -9,8 +9,29 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+#import "Caculator.h"
+
 int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+    //    @autoreleasepool {
+    //        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+    //    }
+    
+    Caculator *c = [[Caculator alloc] init];
+    
+    BOOL is10 = [[[c caculate:^int(int result) {
+        
+        result += 5;
+        result += 5;
+        result += 5;
+        
+        return result;
+        
+    }] isEqul:^BOOL(int result) {
+        
+        return result == 10;
+    }] isEqu];
+    
+    NSLog(@"is10 : %d",is10);
+    
+    
 }

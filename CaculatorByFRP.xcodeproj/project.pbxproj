@@ -15,6 +15,7 @@
 		B25D05C11D25067B00999BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25D05BF1D25067B00999BDF /* LaunchScreen.storyboard */; };
 		B25D05CC1D25067C00999BDF /* CaculatorByFRPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D05CB1D25067C00999BDF /* CaculatorByFRPTests.m */; };
 		B25D05D71D25067C00999BDF /* CaculatorByFRPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D05D61D25067C00999BDF /* CaculatorByFRPUITests.m */; };
+		B25D05E61D25069000999BDF /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D05E51D25069000999BDF /* Caculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B25D05D21D25067C00999BDF /* CaculatorByFRPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaculatorByFRPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25D05D61D25067C00999BDF /* CaculatorByFRPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorByFRPUITests.m; sourceTree = "<group>"; };
 		B25D05D81D25067C00999BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25D05E41D25069000999BDF /* Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caculator.h; sourceTree = "<group>"; };
+		B25D05E51D25069000999BDF /* Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				B25D05BF1D25067B00999BDF /* LaunchScreen.storyboard */,
 				B25D05C21D25067B00999BDF /* Info.plist */,
 				B25D05B11D25067B00999BDF /* Supporting Files */,
+				B25D05E41D25069000999BDF /* Caculator.h */,
+				B25D05E51D25069000999BDF /* Caculator.m */,
 			);
 			path = CaculatorByFRP;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25D05E61D25069000999BDF /* Caculator.m in Sources */,
 				B25D05B91D25067B00999BDF /* ViewController.m in Sources */,
 				B25D05B61D25067B00999BDF /* AppDelegate.m in Sources */,
 				B25D05B31D25067B00999BDF /* main.m in Sources */,
